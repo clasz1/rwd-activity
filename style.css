@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f9;
+    align-items: center;
+}
+
+header {
+    background-color: #4c636e;
+    color: white;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: 51px;
+}
+
+.navbar ul li {
+    height: 100%;
+    position: relative;
+}
+
+.navbar ul li.account {
+    margin-left: auto;
+}
+
+.navbar ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 24px;
+    text-decoration: none;
+    font-size: large;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.navbar ul li.home {
+    background-color: #3a4a52;
+}
+
+.navbar ul li a.home:hover {
+    background-color: #cccccc;
+}
+
+.navbar ul li a.notifications:hover,
+.notifications:hover {
+    background-color: #cccccc;
+    color: black;
+}
+
+.navbar ul li.notifications:hover .dropdown {
+    display: block;
+}
+
+.navbar ul li.notifications:hover .dropdown:hover {
+    background-color: #cccccc;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: white;
+    min-width: 300px;
+    box-shadow: 0px 4px 8px darkgray;
+    z-index: 1;
+}
+
+.dropdown p {
+    margin: 0;
+    padding: 8px 16px;
+    color: black;
+    cursor: pointer;
+    font-size: large;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.avatar2 {
+    border-radius: 50%;
+    height: 106px;
+    width: 106px;
+}
+
+.profile {
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px darkgray;
+    padding: 5px 15px;
+    margin: 1.5% 14%;
+    width: 340px;
+    height: 315px;
+}
+
+.profile p {
+    text-align: left;
+    font-size: 15px;
+}
+
+.accordion {
+    overflow: hidden;
+    box-shadow: 0 2px 5px darkgray;
+    position: absolute;
+    width: 340px;
+    height: 115px;
+    margin: 19% 14%;
+}
+
+.accordion button {
+    width: 100%;
+    background-color: #7d97a5;
+    color: white;
+    text-align: left;
+    padding: 8px 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+    align-items: center;
+}
+
+.accordion button.groups:hover,
+.accordion button.events:hover,
+.accordion button.photos:hover {
+    background-color: #cccccc;
+    color: black;
+}
+
+.postbox {
+    width: 100%;
+    position: absolute;
+    background: white;
+    padding: 10px 16px;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px darkgray;
+    max-width: 768px;
+    margin: 1.5% 32.5%;
+}
+
+.postbox h6 {
+    color: #656464;
+}
+
+.postbox textarea {
+    width: 100%;
+    border: 1px solid #cccccc;
+    resize: none;
+    height: 40px;
+    padding: 10px;
+    font-size: 15px;
+    overflow: hidden;
+}
+
+.postbox button {
+    background: #617d8a;
+    color: white;
+    border: none;
+    padding: 8px 17px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+}
+
+.postbox button:hover {
+    background: #cccccc;
+    color: black;
+}
+
+.ads {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 2px 5px darkgray;
+    border-radius: 3px;
+    margin: 1.5% 73.3%;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+}
+
+.feedback {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 2px 5px darkgray;
+    border-radius: 3px;
+    margin: 8% 73.3%;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding: 15px;
+}
