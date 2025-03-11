@@ -209,3 +209,10 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
+.posts {
+    position: fixed;
+    margin: 13% 50%;
+    width: 100%;
+    color: #656464;
+}
